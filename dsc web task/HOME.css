@@ -1,0 +1,130 @@
+.Yourname 
+{
+    float: left;
+    font-size: 50px;
+    font:bolder;
+    color: rgb(15, 15, 15);
+    
+}
+body
+{
+    background-image: url("background1.jpg");
+    background-color: rgba(85, 85, 85, 0.959);
+}
+.top
+{
+    padding-bottom: 35px;
+    padding-left: 10px;
+    background-color: rgba(77, 77, 77, 0.397);
+    border-bottom: 1px solid black;
+}
+.navbar {
+    overflow: hidden;
+
+  }
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: rgb(73, 73, 73);
+    font-style: inherit;
+    
+  }
+  .homebutton a
+  {
+    color:rgb(73, 73, 73) ;
+  }
+  .homebutton a:hover
+  {
+      background-color: transparent ;
+  }
+  
+  
+  
+  
+  .myself
+  {
+      
+      float:left;
+      font: bolder;
+  }
+  table
+  {
+    
+      padding: 2%;
+  }
+  .img
+  {
+      border: 0.5px solid;
+      float: center;
+  }
+  .middle
+  {
+      
+      padding-left: 10%;
+      padding-right: 10%;
+
+  }
+  .para
+  {
+      background-color: rgba(34, 34, 34, 0.356);
+      color: rgb(224, 224, 224);
+      text-shadow: 1px 2px black;
+      text-align: center;
+      padding-right: 50px;
+  }
+  .image{
+      padding-left: 50px;
+  }
+  .head
+  {
+      text-align: center;
+      font-size: 40px;
+      color: rgb(32, 46, 68);
+      padding-right: 50px;
+  }
+  .button1
+  {
+      overflow: hidden;
+      padding: 2px;
+  }
+  button
+  {
+      background-color: rgb(70, 70, 70);
+      color: blanchedalmond;
+      float: left;
+      font-size: 25px;
+      border-radius: 7px;
+  }
+  .button1 button
+  {
+      padding: 5px;
+  }
+  .button1 button:hover
+  {
+    
+    color: black;
+    background-color: rgba(255, 255, 255, 0.473);
+  }
+  table
+  {
+    background-color: rgba(59, 58, 55, 0.24);
+  }
+  .hobby
+  {
+      padding-right: 20px;
+  }
+  .skill
+  {
+      padding-left: 20px;
+  }
+  .option{
+      padding-right: 40px;
+      padding-left: 40px;
+  }

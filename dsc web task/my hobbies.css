@@ -1,0 +1,69 @@
+body{
+    background-image: url("backgroundedit.jpg");
+}
+.top1
+{
+    padding-bottom: 30px;
+    background-color: rgba(70, 70, 70, 0.500);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    width: 50%;
+    float: left;
+    
+}
+.top1 h1{
+    padding-top: 15px;
+    padding-left: 25px;
+    
+}
+
+.navbar1 {
+    overflow: hidden;
+    padding-bottom: 8px;
+    background-color: rgb(70, 70, 70,0.500);
+    width: 50%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+ }
+ .navbar1 a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: px;
+    
+  }
+  .navbar1 a:hover
+  {
+      background-color: white;
+      color: black;
+  }
+  .hobby a
+{
+    color: rgb(0, 0, 0);
+}
+.hobby a:hover
+{
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+  .invert{
+      filter: invert(0%);
+  }
+  .Heading
+  {text-align: center;
+    font-size: 50px;
+    color: rgb(173, 193, 211);
+  }
+  .list{
+      padding: auto;
+      margin-left: 150px;
+      margin-right:400px;
+      
+  }
+  td
+  {
+      padding: 30px 50px 30px 20px;
+      font-size: 30px;
+  }

@@ -1,0 +1,125 @@
+body
+{
+    background-image: url("bgimageedit.jpg");
+}
+.top2{
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    margin: auto;
+    width: 40%;
+    float: left;
+    padding: 22px 23px 44px 23px;
+}
+.navbar2{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+.navbar2 a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.navbar2 a :hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(209, 209, 209);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.skills{
+    border: 1px solid white;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+}
+.wrapper{
+    width: 40%;
+    min-width: 570px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 60%;
+}
+.container{
+    width: 100%;
+    padding: 15px 30px 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.295);
+} 
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+ 
+    border: 2px solid #0d96e0;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+   
+ 
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill{
+    100%{
+        width: 80%;
+    }
+}
+
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 25%;
+    }
+}
+
+#Cplusbar{
+    animation: Cplus-fill 2s forwards;
+}
+@keyframes Cplus-fill{
+    100%{
+        width: 30%;
+    }
+} 
+.back1
+{
+    padding: 470px 1px 1px 600px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
